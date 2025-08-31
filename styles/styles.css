@@ -15,6 +15,20 @@ body {
     color: var(--primary-color);
 }
 
+.button {
+    background-color: var(--button-color);
+    color: var(--primary-color);
+    font-weight: 600;
+    padding: 12px 24px;
+    width: 160px;
+    flex-shrink: 1;
+    padding: 12px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
 .hero-section {
 
 }
@@ -148,15 +162,6 @@ body {
 
 }
 
-.call-to-action-button {
-    background-color: var(--button-color);
-    color: var(--primary-color);
-    font-weight: 600;
-    padding: 12px 24px;
-    width: 160px;
-    flex-shrink: 1;
-    border-radius: 8px;
-}
 
 .hero-section > .right {
     display: flex;
@@ -168,13 +173,50 @@ body {
 
 }
 
-.hero-section > .right > .hero-image {
+.hero-image {
+    width: 360px;
+    height: auto;
 
 }
 
-.call-to-action {
+.call-to-action-section {
     background-color: white;
     min-height: 15vh;
+    padding: 30px 15vw 30px 15vw;
+}
+
+.call-to-action {
+    background-color: var(--call-to-action-background-color);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: top;
+    border-radius: 20px;
+    padding: 40px 80px 40px 80px;
+}
+
+.call-left {
+
+}
+
+.call-left p:first-child {
+    font-weight: 800;
+    line-height: 1.5rem;
+}
+
+.call-right {
+    
+}
+
+.call-to-action p {
+    padding: 0;
+    margin: 0;
+}
+
+.call-to-action-btn {
+    border: 3px solid white;
+    border-radius: 8px;
 }
 
 .footer {
