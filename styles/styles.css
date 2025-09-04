@@ -99,6 +99,7 @@ button:hover {
     color: black;
     flex-wrap: wrap;
     flex-grow: 0;
+    text-align: center;
 }
 
 .information-header-text {
